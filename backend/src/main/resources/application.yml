@@ -1,0 +1,39 @@
+server:
+  port: 9102
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: erp-stock
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/erp_stock
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+  jackson:
+    time-zone: GMT+8
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto
+
+# 业务自定义配置
+erp:
+  jwt:
+    # JWT 签名密钥(演示项目,生产环境请务必更换并外部化)
+    secret: erp-stock-demo-jwt-hmac-secret-key-2026-please-change-in-prod
+    # 令牌有效期(小时)
+    expire-hours: 24
+
+logging:
+  level:
+    com.demo.erp: info

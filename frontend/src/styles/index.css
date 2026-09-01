@@ -1,0 +1,36 @@
+/* 全局样式 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* 页面通用卡片间距 */
+.page-card {
+  margin-bottom: 16px;
+}
+
+/* 查询表单行 */
+.query-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+/* 分页容器 */
+.pager {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+/* 金额右对齐辅助 */
+.money {
+  font-variant-numeric: tabular-nums;
+}
