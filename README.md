@@ -23,6 +23,20 @@
 | 报表看板 | 本月销售额/毛利/采购额/库存总额/应收应付余额指标卡、30 天趋势双折线、热销 TOP10、分类占比、库存预警 |
 | 系统管理 | 用户管理(四种角色),菜单按角色区分 |
 
+## 项目截图
+
+| 报表看板 | 采购订单 |
+| --- | --- |
+| ![报表看板](docs/screenshots/dashboard.png) | ![采购订单](docs/screenshots/purchase-list.png) |
+
+| 销售订单 | 实时库存 |
+| --- | --- |
+| ![销售订单](docs/screenshots/sale-list.png) | ![实时库存](docs/screenshots/stock-list.png) |
+
+| 库存流水 | 应收账款 |
+| --- | --- |
+| ![库存流水](docs/screenshots/stock-flow.png) | ![应收账款](docs/screenshots/receivable.png) |
+
 ## 技术栈
 
 | 层 | 技术 | 说明 |
